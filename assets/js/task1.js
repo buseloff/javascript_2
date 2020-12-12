@@ -30,7 +30,7 @@ for (i = 0; i < array1.length; i = i + 2) {
   console.log("Четный " + "индекс элемент №" + i + " = " + array1[i]);
 }
 
-let sum, max, min;
+let sum, maxElem, minElem;
 sum = 0;
 for (i = 0; i < array1.length; i++) {
   sum += array1[i];
@@ -67,14 +67,14 @@ for (i = 0; i < array1.length - 1; i++) {
   array2[i] = array1[i] + array1[i + 1];
 }
 console.log(array2);
-max = array2[0];
+maxElem = array2[0];
 for (i = 1; i < array2.length; i++) {
-  if (array2[i] > max) {
-    max = array2[i];
+  if (array2[i] > maxElem) {
+    maxElem = array2[i];
   }
 }
 
-console.log("Максимальная пара = " + max);
+console.log("Максимальная пара = " + maxElem);
 
 console.log(array1.join("\n"));
 console.log(array1.reverse());
