@@ -1,6 +1,6 @@
 "use strict";
 //Objects
-var car = { type: "Fiat", model: "500", color: "white" };
+/*var car = { type: "Fiat", model: "500", color: "white" };
 
 let user1 = {
   name: "Alex",
@@ -43,4 +43,16 @@ let cat = {
   countLegs: 4,
 };
 
-console.log(cat);
+console.log(cat);*/
+
+let user = {
+  firstName: "Vasya",
+  lastName: "Ivanov",
+  workExperince: 0,
+  isMale: true,
+};
+
+console.log(user);
+console.log(user.firstName + " " + user.lastName);
+user.category = "junior";
+console.log(user);
