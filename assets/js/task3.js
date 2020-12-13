@@ -149,3 +149,12 @@ const SUM_FUN = function (a, b) {
   return a + b;
 };
 console.log(SUM_FUN(2, 3));
+
+//3 type array function
+const sumArrayFun = (a, b) => {
+  return a + b;
+};
+console.log(sumArrayFun(2, 2));
+const numPow = (x) => x * x;
+
+console.log(numPow(5));

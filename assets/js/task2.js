@@ -73,3 +73,17 @@ let user2 = {
 };
 user2.SayHello();
 user2.OutThisObject();
+
+//--------------------------------
+const Car = {
+  name: "Doblo",
+  price: 15000,
+};
+
+const Producer = {
+  name: "Fiat",
+  location: "Italy",
+  model: Car,
+};
+
+console.log(Producer);
