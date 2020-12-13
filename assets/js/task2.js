@@ -56,3 +56,20 @@ console.log(user);
 console.log(user.firstName + " " + user.lastName);
 user.category = "junior";
 console.log(user);
+
+let user2 = {
+  firstName: "Jack",
+  lastName: "Sparrow",
+  isMale: true,
+  SayHello: function () {
+    console.log(
+      "Hello! My name is ",
+      this.firstName + " " + this.lastName + " !"
+    );
+  },
+  OutThisObject: function () {
+    console.log(this);
+  },
+};
+user2.SayHello();
+user2.OutThisObject();
